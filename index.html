@@ -475,100 +475,17 @@ body {
         Bowling, in cricket, is the action of propelling the ball toward the wicket defended by a batter. A player skilled at bowling is called a bowler;[1] a bowler who is also a competent batter is known as an all-rounder. Bowling the ball is distinguished from throwing the ball by a strictly specified biomechanical definition, which restricts the angle of extension of the elbow.[2] A single act of bowling the ball towards the batter is called a ball or a delivery. Bowlers bowl deliveries in sets of six, called an over.</div>
 
         <div id="tab3" class="tab-content">
-          Fielding refers to the act of catching, collecting and returning a ball that has been hit by the batsman. There are nine fielders on each team, as one player out of the 11 will have to act as the bowler, while another takes up the role of the wicket keeper.</div> 
+          Fielding refers to the act of catching, collecting and returning a ball that has been hit by the batsman. There are nine fielders on each team, as one player out of the 11 will have to act as the bowler, while another takes up the role of the wicket keeper.</div>
+          <!-- Live Cricket Score Widget -->
+<iframe src="https://widget.crictimes.org/" width="100%" height="450" frameborder="0" scrolling="no"></iframe>
+ 
        
 
 </div>
     </div>
 <script>
-        function openTab(tabId) {
-            const contents = document.querySelectorAll(".tab-content");
-            contents.forEach((content) => content.classList.remove("active"));
 
-            document.getElementById(tabId).classList.add("active");
-        }
-    </script>
-
-    <script>
-  // Replace with your actual API keys
-  const cricketApiKey = 'YOUR_CRICKETDATA_API_KEY';
-  const newsApiKey = 'YOUR_NEWSAPI_KEY';
-
-  // 🏏 Get Live Scores
-  fetch(`https://api.cricapi.com/v1/currentMatches?apikey=${cricketApiKey}&offset=0`)
-    .then(response => response.json())
-    .then(data => {
-      const scores = data.data;
-      let html = '';
-      scores.slice(0, 5).forEach(match => {
-        html += `<p><strong>${match.name}</strong>: ${match.status}</p>`;
-      });
-      document.getElementById('scoresContent').innerHTML = html;
-    })
-    .catch(error => {
-      document.getElementById('scoresContent').innerText = 'Error loading scores.';
-    });
-
-  // 📰 Get Cricket News
-  fetch(`https://newsapi.org/v2/everything?q=cricket&sortBy=publishedAt&apiKey=${newsApiKey}`)
-    .then(response => response.json())
-    .then(data => {
-      const articles = data.articles.slice(0, 5);
-      let html = '';
-      articles.forEach(article => {
-        html += `<p><a href="${article.url}" target="_blank">${article.title}</a></p>`;
-      });
-      document.getElementById('newsContent').innerHTML = html;
-    })
-    .catch(error => {
-      document.getElementById('newsContent').innerText = 'Error loading news.';
-    });
-    
-</script>
-<h2>⏳ Next Match Countdown</h2>
-<p id="countdown"></p>
-
-<script>
-  const matchDate = new Date("2025-04-10T14:30:00").getTime(); // Update this date/time
-
-  const timer = setInterval(function() {
-    const now = new Date().getTime();
-    const distance = matchDate - now;
-
-    if (distance < 0) {
-      clearInterval(timer);
-      document.getElementById("countdown").innerHTML = "Match is Live!";
-    } else {
-      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      document.getElementById("countdown").innerHTML =
-        `${days}d ${hours}h ${minutes}m ${seconds}s`;
-    }
-  }, 1000);
-</script>
-<h2>⭐ Cricketer of the Day</h2>
-<div id="playerCard"></div>
-
-<script>
-  const players = [
-    { name: "Babar Azam", role: "Batsman", team: "Pakistan" },
-    { name: "Virat Kohli", role: "Batsman", team: "India" },
-    { name: "Shaheen Afridi", role: "Bowler", team: "Pakistan" },
-    { name: "Rohit Sharma", role: "Batsman", team: "India" }
-  ];
-
-  const pick = players[Math.floor(Math.random() * players.length)];
-
-  document.getElementById("playerCard").innerHTML = `
-    <div style="border:1px solid #ccc; padding:10px; width:200px;">
-      <h3>${pick.name}</h3>
-      <p>Role: ${pick.role}</p>
-      <p>Team: ${pick.team}</p>
-    </div>
-  `;
+  
 </script>
 
 </body>
