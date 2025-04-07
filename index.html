@@ -582,6 +582,26 @@ body {
   <tr><td>3</td><td>Rassie van der Dussen</td><td>SA 🇿🇦</td><td>821</td></tr>
   <tr><td>4</td><td>David Warner</td><td>AUS 🇦🇺</td><td>804</td></tr>
 </table>
+<h2>🗳️ Who's your favorite cricketer?</h2>
+<form onsubmit="handleVote(); return false;">
+  <input type="radio" name="vote" value="Babar"> Babar Azam<br>
+  <input type="radio" name="vote" value="Kohli"> Virat Kohli<br>
+  <input type="radio" name="vote" value="Other"> Someone else<br><br>
+  <button type="submit">Vote</button>
+</form>
+<p id="voteResult"></p>
+
+<script>
+  function handleVote() {
+    const selected = document.querySelector('input[name="vote"]:checked');
+    const result = document.getElementById("voteResult");
+    if (selected) {
+      result.innerHTML = `✅ You voted for <strong>${selected.value}</strong>!`;
+    } else {
+      result.innerHTML = "❌ Please select an option.";
+    }
+  }
+</script>
 
 
 
@@ -593,3 +613,5 @@ body {
 </body>
 </html>
 
+
+     
