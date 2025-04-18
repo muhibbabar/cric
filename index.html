@@ -20,6 +20,86 @@
 <button id="darkToggle" onclick="document.body.classList.toggle('dark-mode')">
   🌙 Dark Mode
 </button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All About Cricket</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f2f2f2;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    /* 🌙 Dark mode */
+    .dark-mode {
+      background-color: #121212;
+      color: white;
+    }
+
+    /* Toggle button */
+    #darkToggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      border: none;
+      background: #333;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+    /* 📌 Sticky Header */
+    header {
+      position: sticky;
+      top: 0;
+      background: white;
+      padding: 10px 20px;
+      z-index: 999;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    /* 🧍‍♂️ Player Card */
+    .card {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+
+  <button id="darkToggle" onclick="document.body.classList.toggle('dark-mode')">🌙 Toggle Dark Mode</button>
+
+  <header>
+    <h2>🏏 All About Cricket</h2>
+  </header>
+
+  <div class="card">
+    <h3>Babar Azam</h3>
+    <p>Captain of Pakistan, elegant batsman with great cover drives.</p>
+  </div>
+
+  <div class="card">
+    <h3>Virat Kohli</h3>
+    <p>Indian run machine, aggressive and consistent in all formats.</p>
+  </div>
+
+</body>
+</html>
+
 
 
 
