@@ -84,6 +84,26 @@
   <button id="darkToggle" onclick="document.body.classList.toggle('dark-mode')">🌙 Toggle Dark Mode</button>
   <button id="lightToggle" onclick="document.body.classList.toggle('light-mode')">🌙 Toggle light Mode</button>
 
+  <div id="news"></div>
+
+<script>
+  fetch('https://newsapi.org/v2/everything?q=cricket&apiKey=YOUR_API_KEY')
+    .then(res => res.json())
+    .then(data => {
+      const newsDiv = document.getElementById("news");
+      data.articles.slice(0, 5).forEach(article => {
+        const item = `
+          <div style="margin-bottom: 15px;">
+            <h4>${article.title}</h4>
+            <a href="${article.url}" target="_blank">Read more</a>
+          </div>
+        `;
+        newsDiv.innerHTML += item;
+      });
+    });
+</script>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -734,3 +754,5 @@ Founded by the PCB in 2015, the league features six city-based franchise teams. 
 </body>
 </html>
 
+
+      
