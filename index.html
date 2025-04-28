@@ -6360,8 +6360,49 @@ body { background: #f0f0f0; color: black; transition: 0.3s; margin:0; padding:20
 
 <body>
 
-    <button id="darkToggle" onclick="document.body.classList.toggle('dark-mode')">🌙 Toggle Dark Mode</button>
-    <button id="lightToggle" onclick="document.body.classList.toggle('light-mode')">🌙 Toggle light Mode</button>
+    <button onclick="document.body.classList.toggle('dark')" 
+style="position:fixed;top:10px;left:10px;padding:8px 12px;">🌙</button>
+
+<style>
+.dark { background: #121212; color: white; transition: 0.3s; }
+body { background: #f0f0f0; color: black; transition: 0.3s; margin:0; padding:20px; }
+</style>
+
+</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All About Cricket</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f2f2f2;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    /* 🌙 Dark mode */
+    .dark-mode {
+      background-color: #121212;
+      color: white;
+    }
+
+    /* Toggle button */
+    #darkToggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      border: none;
+      background: #333;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000;
+    }
 
     <div id="news"></div>
 
