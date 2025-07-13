@@ -1,0 +1,1565 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cricket World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html" class="logo-link">
+    <img src="images/logo.png" alt="Cricket Logo" class="logo">
+  </a>
+        <a href="index.html">Home</a>
+        <a href="players.html">Players</a>
+        <a href="tournaments.html">Tournaments</a>
+    </div>
+    <div id="navbar-container"></div>
+
+    <div class="content">
+        <h1>🏏 Welcome to Cricket World</h1>
+        <p>Cricket is one of the most loved sports in the world. It’s not just a game—it's an emotion, especially in
+            countries like India, Australia, and England.</p>
+        <p>This site will guide you through the world of cricket, showcasing legendary players and world-famous
+            tournaments.</p>
+    </div>
+
+    <script src="navbar.js"></script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cricket Tournaments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html" class="logo-link">
+    <img src="images/logo.png" alt="Cricket Logo" class="logo">
+  </a>
+        <a href="index.html">Home</a>
+        <a href="players.html">Players</a>
+        <a href="tournaments.html">Tournaments</a>
+    </div>
+    <div id="navbar-container"></div>
+
+    <div class="content">
+        <h1>🏆 Major Cricket Tournaments</h1>
+        <ul>
+            <li><strong>ICC Cricket World Cup</strong> – Held every 4 years. The biggest stage in cricket.</li>
+            <li><strong>ICC T20 World Cup</strong> – The fastest and most exciting version of cricket.</li>
+            <li><strong>Indian Premier League (IPL)</strong> – The richest and most glamorous T20 league.</li>
+            <li><strong>The Ashes</strong> – A legendary series between England and Australia.</li>
+            <li><strong>Asia Cup</strong> – Regional tournament featuring Asian teams.</li>
+        </ul>
+    </div>
+
+    <script src="navbar.js"></script>
+</body>
+
+</html>
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="players.html">Players</a>
+    <a href="tournaments.html">Tournaments</a>
+</div>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cricket Players</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+<a href="index.html" class="logo-link">
+    <img src="images/logo.png" alt="Cricket Logo" class="logo">
+  </a>
+        <a href="index.html">Home</a>
+        <a href="players.html">Players</a>
+        <a href="tournaments.html">Tournaments</a>
+    </div>
+    <div id="navbar-container"></div>
+
+    <div class="content">
+        <h1>🌟 Famous Cricket Players</h1>
+        <ul>
+            <li><strong>Sachin Tendulkar</strong> (India) – Known as the "God of Cricket".</li>
+            <li><strong>Virat Kohli</strong> (India) – Modern-day great and run machine.</li>
+            <li><strong>MS Dhoni</strong> (India) – Captain Cool and finisher.</li>
+            <li><strong>AB de Villiers</strong> (South Africa) – Mr. 360°.</li>
+            <li><strong>Ben Stokes</strong> (England) – Match-winner and warrior.</li>
+        </ul>
+    </div>
+
+    <script src="navbar.js"></script>
+</body>
+
+</html>
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #222;
+  }
+  
+  .navbar {
+    background-color: #005a2b;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #00a859;
+    color: white;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #005a2b;
+  }
+  .navbar .logo-link {
+  padding: 0;
+  margin-right: 20px;
+}
+
+.logo {
+  height: 40px;
+  vertical-align: middle;
+}
+/* Style the navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+/* Style sections */
+section {
+  height: 100vh; /* Full screen height */
+  padding-top: 60px; /* Space for fixed navbar */
+  text-align: center;
+  font-size: 24px;
+}
+
+#home {
+  background-color: #87CEFA;
+}
+#about {
+  background-color: #90EE90;
+}
+#contact {
+  background-color: #FFD700;
+
+}
+#service{
+  background-color: violet;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All about Cricket</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .top-bar {
+      position: fixed;
+      top: 10px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .search-input {
+      padding: 6px 12px;
+      font-size: 14px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      outline: none;
+      transition: 0.3s ease;
+    }
+
+    .search-input:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <input type="text" class="search-input" placeholder="Search...">
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+
+        #darkToggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            border: none;
+            background: #333;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .dark {
+            background: #121212;
+            color: white;
+            transition: 0.3s;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #e9e9e9;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        .topnav .search-container {
+            float: right;
+        }
+
+        .topnav input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+        }
+
+        .topnav .search-container button {
+            float: right;
+            padding: 6px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .topnav .search-container button:hover {
+            background: #ccc;
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav .search-container {
+                float: none;
+            }
+
+            .topnav a,
+            .topnav input[type=text],
+            .topnav .search-container button {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+                padding: 14px;
+            }
+
+            .topnav input[type=text] {
+                border: 1px solid #ccc;
+            }
+        }
+    </style>
+    <meta charSet="utf-8" />
+    <link rel="preconnect" href="https://img1.hscicdn.com" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://dcf.espn.com" crossorigin="anonymous" />
+    <link rel="preload" href="https://wassets.hscicdn.com/static/fonts/CiIcons/ci-icons-v3.5/fonts/icomoon.woff?gencn3"
+        as="font" type="font/woff2" crossorigin="anonymous" />
+    <script type="text/javascript">
+        /*! js-cookie v3.0.5 | MIT */
+        !function (e, t) { "object" == typeof exports && "undefined" != typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define(t) : (e = "undefined" != typeof globalThis ? globalThis : e || self, function () { var n = e.Cookies, o = e.Cookies = t(); o.noConflict = function () { return e.Cookies = n, o } }()) }(this, (function () { "use strict"; function e(e) { for (var t = 1; t < arguments.length; t++) { var n = arguments[t]; for (var o in n) e[o] = n[o] } return e } var t = function t(n, o) { function r(t, r, i) { if ("undefined" != typeof document) { "number" == typeof (i = e({}, o, i)).expires && (i.expires = new Date(Date.now() + 864e5 * i.expires)), i.expires && (i.expires = i.expires.toUAllabouCaricketString()), t = encodeURIComponent(t).replace(/%(2[346B]|5E|60|7C)/g, decodeURIComponent).replace(/[()]/g, escape); var c = ""; for (var u in i) i[u] && (c += "; " + u, !0 !== i[u] && (c += "=" + i[u].split(";")[0])); return document.cookie = t + "=" + n.write(r, t) + c } } return Object.create({ set: r, get: function (e) { if ("undefined" != typeof document && (!arguments.length || e)) { for (var t = document.cookie ? document.cookie.split("; ") : [], o = {}, r = 0; r < t.length; r++) { var i = t[r].split("="), c = i.slice(1).join("="); try { var u = decodeURIComponent(i[0]); if (o[u] = n.read(c, u), e === u) break } catch (e) { } } return e ? o[e] : o } }, remove: function (t, n) { r(t, "", e({}, n, { expires: -1 })) }, withAttributes: function (n) { return t(this.converter, e({}, this.attributes, n)) }, withConverter: function (n) { return t(e({}, this.converter, n), this.attributes) } }, { attributes: { value: Object.freeze(o) }, converter: { value: Object.freeze(n) } }) }({ read: function (e) { return '"' === e[0] && (e = e.slice(1, -1)), e.replace(/(%[dA-F]{2})+/gi, decodeURIComponent) }, write: function (e) { return encodeURIComponent(e).replace(/%(2[346BF]|3[AC-F]|40|5[BDE]|60|7[BCD])/g, decodeURIComponent) } }, { path: "/" }); return t }));
+    </script>
+    <script type="text/javascript">
+        // DATA LAYER CONFIGURATION
+        var _dl = {
+            site: {
+                baseDomain: 'espncricinfo.com',
+                site: 'espncricinfo',
+                portal: 'sports',
+                country: Cookies.get('country') || 'in',
+                language: window.location.pathname.startsWith('/hindi') ? 'hi_in' : 'en_us',
+                otguid: 'a0595f6d-337b-4be2-8d32-ad0c5e7c829d',
+            },
+            page: {
+                page_url: window.location.href,
+                page_title: document.title,
+                platform: "web",
+            },
+            helpersEnabled: true,
+            pageViewed: false,
+            visitor: {
+                swid: Cookies.get('SWID'),
+            }
+        };
+
+        // SUBSCRIBE AND PUBLISH METHODS
+        _dl.subscribe = function (eventName, callback) {
+            document.addEventListener("__dataLayer." + eventName, function (e) {
+                if (e && e.detail)
+                    callback.apply(__dataLayer, e.detail);
+            });
+        };
+
+        _dl.publish = function (eventName) {
+            var args = Array.prototype.splice.apply(arguments, [1, arguments.length]),
+                event = new CustomEvent("__dataLayer." + eventName, {
+                    detail: args || []
+                });
+            document.dispatchEvent(event);
+        };
+
+        // MAKE DATA LAYER GLOBAL
+        window.__dataLayer = window.__dataLayer || {};
+        Object.assign(window.__dataLayer, _dl);
+    </script>
+    <script type="text/javascript">
+        var appInfoValue = Cookies.get('ci-app');
+        var appInfo = null;
+        var isApp = false;
+        if (appInfoValue) {
+            appInfo = JSON.parse(appInfoValue);
+
+            // android || ios
+            if (appInfo['pf'] === 'android' || appInfo['pf'] === 'ios') {
+                isApp = true;
+            }
+        }
+        window.hsci = window.hsci || {
+            consent: {
+                region: 'unknown',
+                enabled: false,
+                taken: true,
+            },
+            did: null,
+            appInfo: appInfo,
+            playerV5: true
+        };
+
+        // android
+        if (window.CleverTap) {
+            isApp = true;
+
+            // ios
+        } else if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.clevertap) {
+            isApp = true;
+        }
+
+        hsci.isApp = isApp;
+
+        //Flutter webview
+        window.addEventListener('flutterInAppWebViewPlatformReady', function () {
+            // console.log("flutterInAppWebViewPlatformReady done")
+            window.isFlutterAppReady = true;
+            window.isApp = true;
+        });
+
+
+        hsci.injectScript = function (src, opts) {
+            (function () {
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                script.async = false;
+                script.src = src;
+                if (opts && typeof opts.id !== "undefined") script.id = opts.id;
+                if (opts && typeof opts.async !== "undefined") script.async = opts.async;
+                if (opts && typeof opts.defer !== "undefined") script.defer = opts.defer;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(script, s);
+            })();
+        };
+    </script>
+    <script type="text/javascript">
+        hsci.consent.region = Cookies.get('region');
+        hsci.consent.country = Cookies.get('country');
+
+        // Faiyaz - emea region is added for exisiting users with the same region cookie.
+        hsci.consent.enabled = hsci.isApp ? false : hsci.consent.region === 'gdpr' || hsci.consent.region === 'emea' || hsci.consent.region === 'ccpa';
+
+        // Faiyaz - emea region is added for exisiting users with the same region cookie.
+        if (hsci.consent.enabled) {
+
+            //disable integration scripts
+            window.YETT_BLACKLIST = [
+                /www\.googletagmanager\.com/,
+                /d2r1yp2w7bby2u\.cloudfront\.net/,
+                /omniture-.*?\.js/,
+                /at-.*?\.js/,
+                /prebid.*?\.js/,
+                /sb\.scorecardresearch\.com/,
+                /chartbeat\.js/,
+                /cdn\.taboola\.com/,
+                /jsc\.mgid\.com/
+            ];
+
+            // This is required for ccpa region also
+            document.addEventListener('tms.ready', function () {
+                // ensighten script is loaded and consent is taken so unblock
+                window.yett.unblock();
+
+                if (!hsci.isApp && window.hsci.playerV5) {
+                    // Data Layer Integration
+                    document.dispatchEvent(new Event("dataLayerReady"));
+                    window.__dataLayer.publish('pageView');
+                }
+            });
+
+            if (hsci.consent.region === 'gdpr' || hsci.consent.region === 'emea' || hsci.consent.region === 'ccpa') {
+                var _alertBox1 = Cookies.get('OptanonConsentAlertBoxClosed');
+                var _alertBox2 = Cookies.get('OptanonAlertBoxClosed');
+                hsci.consent.taken = _alertBox1 !== undefined || _alertBox2 !== undefined;
+
+                window.addEventListener('consent.onetrust', function (e) {
+                    // Check if __tcfapi is ready to detect event on close
+                    // @ts-ignore
+                    if (window.__tcfapi) {
+                        __tcfapi('getTCData', 2, function (tcData, success) {
+                            if (success) {
+                                if (tcData.eventStatus === 'useractioncomplete') {
+                                    window.location.reload();
+                                }
+                            }
+                        });
+                    }
+                });
+            }
+
+        } else {
+            // for non gdpr regions do not load following scipt upfront load after window load
+            window.YETT_BLACKLIST = [
+                /d2r1yp2w7bby2u\.cloudfront\.net/,
+                /omniture-.*?\.js/,
+                /at-.*?\.js/,
+                /chartbeat\.js/,
+                /cdn\.taboola\.com/,
+                /jsc\.mgid\.com/
+            ];
+
+            if (hsci.isApp) {
+                window.addEventListener('DOMContentLoaded', function (event) {
+                    window.yett.unblock();
+                });
+            } else {
+                document.addEventListener('tms.ready', function () {
+                    // ensighten script is loaded and consent is taken so unblock
+                    window.yett.unblock();
+                    if (!hsci.isApp && window.hsci.playerV5) {
+                        // Data Layer Integration
+                        document.dispatchEvent(new Event("dataLayerReady"));
+                        window.__dataLayer.publish('pageView');
+                    }
+                });
+            }
+        }
+    </script>
+    <script
+        type="text/javascript">!function (t, e) { "object" == typeof exports && "undefined" != typeof module ? e(exports) : "function" == typeof define && define.amd ? define(["exports"], e) : e((t = t || self).yett = {}) }(this, function (t) { "use strict"; function o(e, t) { return e && (!t || t !== s) && (!a.blacklist || a.blacklist.some(function (t) { return t.test(e) })) && (!a.whitelist || a.whitelist.every(function (t) { return !t.test(e) })) } function l(t) { var e = t.getAttribute("src"); return a.blacklist && a.blacklist.every(function (t) { return !t.test(e) }) || a.whitelist && a.whitelist.some(function (t) { return t.test(e) }) } var s = "javascript/blocked", a = { blacklist: window.YETT_BLACKLIST, whitelist: window.YETT_WHITELIST }, u = { blacklisted: [] }, f = new MutationObserver(function (t) { for (var e = 0; e < t.length; e++)for (var i = t[e].addedNodes, n = function (t) { var n = i[t]; if (1 === n.nodeType && "SCRIPT" === n.tagName) { var e = n.src, r = n.type; if (o(e, r)) { u.blacklisted.push(n.cloneNode()), n.type = s; n.addEventListener("beforescriptexecute", function t(e) { n.getAttribute("type") === s && e.preventDefault(), n.removeEventListener("beforescriptexecute", t) }), n.parentElement && n.parentElement.removeChild(n) } } }, r = 0; r < i.length; r++)n(r) }); f.observe(document.documentElement, { childList: !0, subtree: !0 }); var c = document.createElement; function p(t) { return function (t) { if (Array.isArray(t)) { for (var e = 0, n = new Array(t.length); e < t.length; e++)n[e] = t[e]; return n } }(t) || function (t) { if (Symbol.iterator in Object(t) || "[object Arguments]" === Object.prototype.toString.call(t)) return Array.from(t) }(t) || function () { throw new TypeError("Invalid attempt to spread non-iterable instance") }() } document.createElement = function () { for (var t = arguments.length, e = new Array(t), n = 0; n < t; n++)e[n] = arguments[n]; if ("script" !== e[0].toLowerCase()) return c.bind(document).apply(void 0, e); var r = c.bind(document).apply(void 0, e), i = r.setAttribute.bind(r); return Object.defineProperties(r, { src: { get: function () { var t = r.getAttribute("src"); return t && 0 === t.indexOf("//") ? document.location.protocol + t : t || "" }, set: function (t) { return o(t, r.type) && i("type", s), i("src", t), !0 } }, type: { set: function (t) { var e = o(r.src, r.type) ? s : t; return i("type", e), !0 } } }), r.setAttribute = function (t, e) { "type" === t || "src" === t ? r[t] = e : HTMLScriptElement.prototype.setAttribute.call(r, t, e) }, r }; var d = new RegExp("[|\\{}()[\\]^$+*?.]", "g"); t.unblock = function () { for (var t = arguments.length, n = new Array(t), e = 0; e < t; e++)n[e] = arguments[e]; n.length < 1 ? (a.blacklist = [], a.whitelist = []) : (a.blacklist && (a.blacklist = a.blacklist.filter(function (e) { return n.every(function (t) { return "string" == typeof t ? !e.test(t) : t instanceof RegExp ? e.toString() !== t.toString() : void 0 }) })), a.whitelist && (a.whitelist = [].concat(p(a.whitelist), p(n.map(function (e) { if ("string" == typeof e) { var n = ".*" + e.replace(d, "\$&") + ".*"; if (a.whitelist.every(function (t) { return t.toString() !== n.toString() })) return new RegExp(n) } else if (e instanceof RegExp && a.whitelist.every(function (t) { return t.toString() !== e.toString() })) return e; return null }).filter(Boolean))))); for (var r = document.querySelectorAll('script[type="'.concat(s, '"]')), i = 0; i < r.length; i++) { var o = r[i]; l(o) && (o.type = "application/javascript", u.blacklisted.push(o), o.parentElement.removeChild(o)) } var c = 0; p(u.blacklisted).forEach(function (t, e) { if (l(t)) { var n = document.createElement("script"); n.setAttribute("src", t.src), n.setAttribute("type", "application/javascript"), document.head.appendChild(n), u.blacklisted.splice(e - c, 1), c++ } }), a.blacklist && a.blacklist.length < 1 && f.disconnect() }, Object.defineProperty(t, "__esModule", { value: !0 }) });</script>
+    <script type="text/javascript">
+        if (!hsci.isApp) {
+            hsci.injectScript('//dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js', { async: true });
+        }
+    </script>
+    <script type="text/javascript">window.googletag = window.googletag || { cmd: [] };
+        window.pbjs = window.pbjs || { que: [] };
+        window._taboola = window._taboola || [];
+        window._outbrain = window._outbrain || [];
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="manifest" href="/static/json/manifest.json" />
+    <link href="https://wassets.hscicdn.com/static/images/iphone5_splash.png"
+        media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
+        rel="apple-touch-startup-image" />
+    <link href="https://wassets.hscicdn.com/static/images/iphone6_splash.png"
+        media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)"
+        rel="apple-touch-startup-image" />
+    <link href="https://wassets.hscicdn.com/static/images/iphoneplus_splash.png"
+        media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)"
+        rel="apple-touch-startup-image" />
+    <link href="https://wassets.hscicdn.com/static/images/iphonex_splash.png"
+        media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)"
+        rel="apple-touch-startup-image" />
+    <link href="https://wassets.hscicdn.com/static/images/iphonexr_splash.png"
+        media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)"
+        rel="apple-touch-startup-image" />
+    <link href="https://wassets.hscicdn.com/static/images/iphonexsmax_splash.png"
+        media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)"
+        rel="apple-touch-startup-image" />
+    <link href="https://wassets.hscicdn.com/static/images/ipad_splash.png"
+        media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)"
+        rel="apple-touch-startup-image" />
+    <link href="https://wassets.hscicdn.com/static/images/ipadpro1_splash.png"
+        media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)"
+        rel="apple-touch-startup-image" />
+    <link href="https://wassets.hscicdn.com/static/images/ipadpro3_splash.png"
+        media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)"
+        rel="apple-touch-startup-image" />
+    <link href="https://wassets.hscicdn.com/static/images/ipadpro2_splash.png"
+        media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)"
+        rel="apple-touch-startup-image" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="ESPN Cricinfo" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="theme-color" content="#03a9f4" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://wassets.hscicdn.com/static/images/ios-72.png"
+        type="image/png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://wassets.hscicdn.com/static/images/ios-120.png"
+        type="image/png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://wassets.hscicdn.com/static/images/ios-144.png"
+        type="image/png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://wassets.hscicdn.com/static/images/ios-180.png"
+        type="image/png" />
+    <title>Cricket&#x27;s Cricket Match | Cricket Update | Cricket News | Cricket</title>
+    <meta name="title" content="Cricket&#x27;s Cricket Match | Cricket Update | Cricket News | Cricket" />
+    <meta name="description"
+        content="Get live cricket scores, cricket updates of upcoming International, domestic and T20 matches. Catch all the latest videos, news about cricket on Cricket." />
+    <meta name="keywords"
+        content="cricket news headlines,today&#x27;s match live score,cricket news in hindi,cricket news,cricket update,today cricket scores,latest cricket scores,cricket result,cricket live update" />
+    <meta name="robots" content="index,follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+    <meta name="googlebot" content="index,follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+    <link rel="canonical" href="https://www.espncricinfo.com/" />
+    <meta property="og:site_name" content="ESPNcricinfo" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Today&#x27;s Cricket Match | Cricket Update | Cricket News | ESPNcricinfo" />
+    <meta property="og:description"
+        content="Get live cricket scores, cricket updates of upcoming International, domestic and T20 matches. Catch all the latest videos, news about cricket on ESPNcricinfo." />
+    <meta property="og:image" content="https://www.espncricinfo.com/static/images/espncricinfo-og.png" />
+    <meta property="og:url" content="https://www.espncricinfo.com/" />
+    <meta property="fb:app_id" content="260890547115" />
+    <meta property="fb:pages" content="104266592953439" />
+    <meta name="twitter:site" content="@espncricinfo" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:app:name:iphone" content="ESPNcricinfo" />
+    <meta name="twitter:app:id:iphone" content="417408017" />
+    <meta name="twitter:app:name:googleplay" content="ESPNcricinfo" />
+    <meta name="twitter:app:id:googleplay" content="com.july.cricinfo" />
+    <meta name="twitter:title" content="Today&#x27;s Cricket Match | Cricket Update | Cricket News | ESPNcricinfo" />
+    <meta name="twitter:description"
+        content="Get live cricket scores, cricket updates of upcoming International, domestic and T20 matches. Catch all the latest videos, news about cricket on ESPNcricinfo." />
+    <meta name="twitter:image" content="https://www.espncricinfo.com/static/images/espncricinfo-og.png" />
+    <meta itemProp="name" content="Today&#x27;s Cricket Match | Cricket Update | Cricket News | ESPNcricinfo" />
+    <meta itemProp="description"
+        content="Get live cricket scores, cricket updates of upcoming International, domestic and T20 matches. Catch all the latest videos, news about cricket on ESPNcricinfo." />
+    <meta itemProp="image" content="https://www.espncricinfo.com/static/images/espncricinfo-og.png" />
+    <meta itemProp="publisher" content="ESPNcricinfo" />
+    <meta itemProp="url" content="https://www.espncricinfo.com/" />
+    <meta itemProp="editor" content="ESPNcricinfo" />
+    <meta itemProp="headline" content="Today&#x27;s Cricket Match | Cricket Update | Cricket News | ESPNcricinfo" />
+    <meta itemProp="sourceOrganization" content="ESPN Digital Media Pvt Ltd" />
+    <meta itemProp="keywords"
+   </script>    
+</body>
+
+</html>
+<style>
+    <button onclick="document.body.classList.toggle('dark')" style="position:fixed;top:10px;left:10px;padding:8px 12px;">🌙</button><style>body {
+        background: #f0f0f0;
+        color: black;
+        transition: 0.3s;
+        margin: 0;
+        padding: 20px;
+    }
+</style>
+
+</button>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>All About Cricket</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f2f2f2;
+            transition: background 0.3s, color 0.3s;
+            <button onclick="document.body.classList.toggle('dark')" 
+style="position:fixed; top:10px; left:10px; padding:8px 12px; background:#333; color:#fff; border:none; border-radius:5px; cursor:pointer;">
+<button onclick="document.body.classList.toggle('dark')" 
+style="position:fixed;top:10px;left:10px;padding:8px 12px;">🌙</button>
+
+<style>
+.dark { background: #121212; color: white; transition: 0.3s; }
+body { background: #f0f0f0; color: black; transition: 0.3s; margin:0; padding:20px; }
+</style>
+
+</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All About Cricket</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f2f2f2;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    /* 🌙 Dark mode */
+    .dark-mode {
+      background-color: #121212;
+      color: white;
+    }
+
+    /* Toggle button */
+    #darkToggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      border: none;
+      background: #333;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000;
+        }
+
+        /* 📌 Sticky Header */
+        header {
+            position: sticky;
+            top: 0;
+            background: white;
+            padding: 10px 20px;
+            z-index: 999;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 🧍‍♂️ Player Card */
+        .card {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="document.body.classList.toggle('dark')" 
+style="position:fixed;top:10px;left:10px;padding:8px 12px;">🌙</button>
+
+<style>
+.dark { background: #121212; color: white; transition: 0.3s; }
+body { background: #f0f0f0; color: black; transition: 0.3s; margin:0; padding:20px; }
+</style>
+
+</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All About Cricket</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f2f2f2;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    /* 🌙 Dark mode */
+    .dark-mode {
+      background-color: #121212;
+      color: white;
+    }
+
+    /* Toggle button */
+    #darkToggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      border: none;
+      background: #333;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+   
+  <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="All about cricketers!" content="width=device-width, initial-scale=1.0">
+        <title>All about Cricket!</title>
+        <style>
+            /* Basic styles for the carousel */
+            .carousel {
+                position: relative;
+                width: 100%;
+                margin: auto;
+                overflow: hidden;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            }
+
+            .slides {
+                display: flex;
+                transition: transform 0.5s ease;
+                width: 100%;
+            }
+
+            .slide {
+                min-width: 100%;
+                box-sizing: border-box;
+            }
+
+            .carousel img {
+                width: 50%;
+                display: block;
+            }
+
+            .carousel-control {
+                position: absolute;
+                top: 50%;
+                width: 20px;
+                height: 30px;
+                background: rgba(0, 0, 0, 0.5);
+                color: black;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transform: translateY(-50%);
+            }
+
+            .carousel-control.center {
+                center: 200px;
+            }
+
+            .carousel-control.right {
+                right: 10px;
+
+            }
+
+            #muhib {
+                background-color: #2c3e50 !important;
+                text-align: center;
+                padding: 10px 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Header Section -->
+        <header id="muhib">
+            <h1>All about Cricket Players!</h1>
+        </header>
+
+        <div class="carousel">
+            <div class="slides">
+                <div class="slide">
+
+                    <img
+                        src=https://media.licdn.com/dms/image/v2/D5612AQHtuqUZ71DlgA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1702662144385?e=2147483647&v=beta&t=Z9i0Dstl98n7Mb2Z3dEHBUNF5YmyJV5NykwLXfibbQU />
+                    Rohit Sharma is born in Bansod, Nagpur, Maharashtra, India. His International debut was in 23 June
+                    2007. He has won the 2007 T20 World Cup, and the 2013 ICC Champions Trophy,and the 2024 T20 world
+                    cup.He is officially retired from T20 Cricket. Also he is still captain for India. In the TATA IPL
+                    he has represented Mumbai Indians.- Rohit Sharma has won six IPL titles: one with Deccan Chargers
+                    and five as captain of Mumbai Indians (MI), making him the joint most successful captain in the
+                    Indian Premier League. - He joined Mumbai in 2011 and became captain in 2013!Languid and easy on the eye, Rohit Sharma owned all the shots in the book when he emerged from the Mumbai suburbs as heir apparent to the Indian batting greats of the 2000s. It took him time and persistence, but by the 2010s he had become a colossus in white-ball cricket, and the man in charge of perhaps the most formidable league team in the first age of T20.That Rohit had talent was apparent to both the casual observer and to the trained eye. Fans were frustrated at the long wait for the potential to translate into runs, though selectors and captains, knowing better, kept backing him. At one point the word "talent" was Rohit's bugbear, a pejorative nickname for him on social media. Once it all clicked, though - the move to open the batting in ODIs late in 2012 was one particular turning point - things came together spectacularly.𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞
+                    𝐭𝐨 𝐤𝐡𝐨𝐰 𝐦𝐨𝐫𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭 H𝐢𝐭𝐦𝐚𝐧
+                    <!---<button class="add-Player" onclick="alert('https://en.wikipedia.org/wiki/Rohit_Sharma//')">Add a Player</button>--->
+                    <a href='https://en.wikipedia.org/wiki/Rohit_Sharma'>wikipedia Rohit Sharma</a>
+    </body>
+
+    </html>
+    <img src=https://media.gettyimages.com/id/2159857561/photo/final-icc-mens-t20-cricket-world-cup-west-indies-usa-2024.webp?s=1024x1024&w=gi&k=20&c=-tcUxJH23yZKZx57IFBtEqP-MYeA3oK1KvFQn7C3lRM= /> Bumrah Bumrah is born in Ahmedabad,India.His
+    debut was in 23 January 2016.He has won 1 International trophy in 2024.He is the NO1 bowler. He gets wickets in big
+    moments.In the TATA IPL he represents Mumbai Indians.- Jasprit Bumrah is one of the key players in Mumbai Indians'
+    (MI) rise to becoming five-time champions in the Indian Premier League (IPL).Arguably the most skilful fast bowler India have produced, Jasprit Bumrah has been central to their rise as a Test match power in the late 2010s and onward. All pistoning arms and legs in his unorthodox action and late release, he makes the ball do tricks few people not named Wasim Akram have.Bumrah was a yorker specialist early in his career, like his Mumbai Indians team-mate Lasith Malinga, and he learnt much about the art of hitting the blockhole from Malinga. But he developed to be so much more, adept at bowling swing both conventional and reverse, and able to produce deceptive speed, cut and dip almost at will. Within seven years of his debut he became the first in Test history to take 200 Test wickets at an average of under 20.𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐤𝐡𝐨𝐰
+    𝐦𝐨𝐫𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭
+    𝐉𝐁!<!---<button class="add-Player" onclick="alert('https://en.wikipedia.org/wiki/Jasprit_Bumrah')">Add a Player</button>--->
+    <a href='https://en.wikipedia.org/wiki/Jasprit_Bumrah'>wikipedia Jasprit Bumrah</a>
+    <img src=https://media.gettyimages.com/id/1774302045/photo/new-zealand-v-pakistan-icc-mens-cricket-world-cup-india-2023.webp?s=1024x1024&w=gi&k=20&c=y3_4_ETgMHUU74EJSJmSuVDyyg51aB4nTyGUpWB60DU= />Born in Mardan, where the standard of batsmanship will always be measured by arguably Pakistan's greatest Test batsman Younis Khan, Fakhar Zaman has been on Pakistan's thankless domestic circuit for over five years with almost no attention. A left-handed opener with an unusually high backlift, Zaman relies on timing for his runs, which he's made plenty of. This is illustrated by his domestic average (42 in first class cricket and 49 in List A). But it wasn't until the Quaid-e-Azam trophy in 2016-17 that his form began to be noticed. Zaman scored 663 runs in the competition at an average of 51, including 170 in the second innings of the final, a game dominated by the twin centuries of former Pakistan captain Salman Butt.  𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐤𝐡𝐨𝐰
+    𝐦𝐨𝐫𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭
+    𝐅𝐚𝐤𝐡𝐚𝐫 𝐙𝐚𝐦𝐚𝐧!<!---<button class="add-Player" onclick="alert('https://en.wikipedia.org/wiki/Fakhar_Zaman_(cricketer)')">Add a Player</button>--->
+    <a href='https://en.wikipedia.org/wiki/Fakhar_Zaman_(cricketer)'>wikipedia Fakhar Zaman</a>
+     </body>
+
+    </html>
+
+    <img src=https://e0.365dm.com/23/11/2048x1152/skysports-virat-kohli-cricket-world-cup_6349142.jpg?20231105124335 />Virat is
+    born in Delhi,India.He also used to be the former captian of Indian Cricket team.He made his debut in August 18
+    2008.He has won 3 international trophy's in 2011 Cricket World Cup, 2013 Champions Trophy and 2024 T20 World Cup. He
+    is officially retired from T20 Cricket.In the TATA IPL he has represented Royal Challengers Bengaluru.Virat Kohli is
+    arguably the most decorated player in the history of IPL to have not won an IPL trophy yet.India has given to the world many a great cricketer but perhaps none as ambitious as Virat Kohli. To meet his ambition, Kohli employed the technical assiduousness of Sachin Tendulkar and fitness that was in the league of top athletes in the world, not just cricketers. As a result, Kohli became the most consistent all-format accumulator of his time, making jaw-dropping chases look easy, and finding, in his own words, the safest possible way to score runs. Plenty of them.This ambition transferred seamlessly to his captaincy: he demanded more than ever of his bowlers especially the quick ones, often sacrificed a batter for bowling depth, and led India to a long stay at No. 1 in Test rankings and a first-ever series win in Australia. India won 40 out of the 68 Tests in which Kohli led, making him the fourth-most successful captain in the world, behind Graeme Smith, Ricky Ponting and Steven Waugh.𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨
+    𝐤𝐡𝐨𝐰 𝐦𝐨𝐫𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭
+    𝐂𝐡𝐞𝐞𝐤𝐮!<!---<button class="add-Player" onclick="alert('https://en.wikipedia.org/wiki/Virat_Kohli')">Add a Player</button>--->
+    <a href='https://en.wikipedia.org/wiki/Virat_Kohli'>wikipedia Virat Kohli</a>
+
+    <img
+        src="https://media.gettyimages.com/id/1434905022/photo/pakistan-icc-mens-t20-cricket-world-cup-2022-team-headshots.webp?s=1024x1024&w=gi&k=20&c=qkes8m81XzJfbC8io_UbI4UK-kUl5OuvwEYKdg_iwl4=" />Rizwan
+    is born in Peshawar,Pakistan.He is the new Pakistani captain. His international debut was in 2015. Rizwan has won no
+    international trophy.His a very successfull Cricketer for Pakistan. In the HBL PSL he has represented Lahore
+    Qalandars,Karachi King,and He is now captain for Multan sultans.For good measure, he was also the second highest
+    runscorer at the 2021 PSL - behind only his Pakistan opening partner Babar Azam - and led Multan Sultans to the PSL
+    title.For several years, it appeared Mohammad Rizwan's international career would only happen in a parallel universe, racking up domestic runs even as he struggled to get a game in the national side. But for someone who played an international for the first time in two years in January 2019, Mohammad Rizwan was spoken of remarkably frequently. Most often, he was used as a stick to threaten current first-choice Pakistan wicketkeeper and captain Sarfaraz Ahmed, but the Peshawar native had qualities of his own that suggested he might have been unfortunate not to play for Pakistan more often.𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐤𝐡𝐨𝐰 𝐦𝐨𝐫𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭
+    𝐑𝐢𝐳𝐳𝐮!<!---<button class="add-Player" onclick="alert('https://en.wikipedia.org/wiki/Mohammad_Rizwan_(cricketer)')">Add a Player</button>--->
+    <a href='https://en.wikipedia.org/wiki/Mohammad_Rizwan_(cricketer)'>wikipedia Mohammed Rizwan</a>
+    <img src="https://media.gettyimages.com/id/2190445567/photo/cricket-rsa-pak-odi.webp?s=1024x1024&w=gi&k=20&c=i3LP55djdpA24z457zYwuDByS-Dgt54_PGJ3x51oaog=">Saim Ayub is a Pakistani cricketer who plays for the Pakistan national cricket team and for Karachi Whites in domestic cricket. He made his international debut in T20 against Afghanistan in March 2023 and made his test debut against Australia in the third test in January 2024.He didn't play any recognised T20 cricket for more than a year after that but an explosive National T20 Cup season showcased a deliberate change in his intent as he finished as the second-highest run-scorer in the tournament at a strike rate streets ahead of any other batter. It earned him a brief Bangladesh Premier League gig, as well as a second chance at the PSL, one he grasped with both hands. With Peshawar Zalmi, he finished among the highest run-scorers in 2023 and 2024, with strike rates of 165.53 and 157.53 respectively. With Babar Azam playing a relatively more sedate role alongside him, Ayub's ability to get Zalmi off to flyers stood them in good stead.𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐤𝐡𝐨𝐰 𝐦𝐨𝐫𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭
+    𝑺𝒂𝒊𝒎 𝑨𝒚𝒖𝒃!<!---<button class="add-Player" onclick="alert('https://en.wikipedia.org/wiki/Saim_Ayub')">Add a Player</button>---> <a href='https://en.wikipedia.org/wiki/Saim_Ayub'>wikipedia Saim Ayub</a>
+
+    <img src="https://media.gettyimages.com/id/88607887/photo/icc-twenty20-world-cup-final.jpg?s=612x612&w=gi&k=20&c=1TP9ZryTS_jIkVjHs0GSEMOF29TBXgc-ROkz40vozsE="/>Sahibzada
+    Mohammad Shahid Khan Afridi is a Pakistani former cricketer and captain of the Pakistan national cricket team. An
+    all-rounder, Afridi was a right-handed leg spinner and a right-handed batsman. Afridi made his ODI debut in 1996
+    against Kenya.Borns Sahibzada Mohammad Shahid Khan Afridi, also popularly known as Boom Boom Afridi, former Test and
+    ODI cricketer and currently the T20I captain. He is regarded as one of the greatest big-hitting cricketers of all
+    time, where he has the longest six of any form of the game.𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐤𝐡𝐨𝐰 𝐦𝐨𝐫𝐞
+    𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭 𝐁𝐨𝐨𝐦 𝐁𝐨𝐨𝐦
+    𝐀𝐟𝐫𝐢𝐝𝐢!<!---<button class="add-Player" onclick="alert('https://en.wikipedia.org/wiki/Shahid_Afridi Shahid_Afridi_(cricketer)')">Add a Player</button>--->
+    <a href='https://en.wikipedia.org/wiki/Shahid_Afridi'> wikipedia Shahid Afridi</a>
+    <img src=https://media.gettyimages.com/id/2200855212/photo/topshot-cricket-ct-2025-pak-ind.webp?s=1024x1024&w=gi&k=20&c=mzKDcF8lvhOLrT9vmeExZ_Dl_BlZCq6f-tywcoPGQfY= />Afridi
+    is born in Landi Kotal,Pakistan.His dubut was in 3 April 2018. He has also won no International trophy.He is the No2
+    bowler. He has always performed very well.The team that he has represented in HBL PSL is Lahore Qalandars.He is also
+    one of the prime bowlers of Pakistan. Under his leadership, Lahore Qalandars won their first PSL title in the 2022
+    season and again went on to win the 2023 season, becoming the first team in PSL history to successfully defend their
+    title. He is the first Pakistani to win the Garfield Sobers Trophy.A baby face perched on a two-metre body, Shaheen Afridi's story is trademark Pakistani. An 18-year old already comfortable in the green shirt of the national side, he's been on the radar of the national selectors for almost three years. In a more intimate circle, he was destined for great achievements well before his teenage years, with an international cricketer for an elder brother.Riaz Afridi made his solitary Test performance for Pakistan in 2004, when Shaheen was just four years old. He pushed Shaheen to hard-ball cricket following years of the younger brother enjoying success in Pakistan's informal tape-ball circuit. In 2015, FATA selected him after an U-16 talent hunt programme. His pace, physique and fitness won him an U-16 tour of Australia, and since then, he's been progressing through the youth squads.𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐤𝐡𝐨𝐰 𝐦𝐨𝐫𝐞
+    𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭 𝐭𝐡𝐞
+    𝐄𝐚𝐠𝐥𝐞!<!---<button class="add-Player" onclick="alert('https://en.wikipedia.org/wiki/Shaheen_Afridi')">Add a Player</button>--->
+    <a href='https://en.wikipedia.org/wiki/Shaheen_Afridi'>wikipedia Shaheen Shah Afridi</a>
+        <img src=https://i.dawn.com/primary/2021/07/60edc610e80d8.jpg />
+    Babar Azam is born in Pakistan,Lahore.He is the No1 Odi Cricketer! His Cricket debut began in 31 May 2015.He has won
+    1 international trophy,in 2017 ICC champions trophy,agianst India.He was also the former captian of Pakistan but
+    unfortunately he resigned.In the HBL PSL he has represented Islamabad United,Karachi Kings,and now he is the captain
+    of Peahawar Zalmi.Before the 2020 season, he was appointed as vice captain of the franchise. He was leading runs
+    scorer in Pakistan Super League 2020. He scored 473 runs with an average of 59.12. He led his team to PSL final
+    victory.A right-hand, top-order batsman known for his discipline and level-headed attitude, Babar Azam laid claim to a long-term spot in Pakistan's batting line-up with a strong performance in 2016, making three consecutive ODI hundreds against West Indies in the UAE, and a 90 in his third Test, in Hamilton. He was 22 years old at the time.Born in Lahore and a first cousin to the Akmal brothers, Azam made his way up through age-group cricket. His journey began at an under-15 world championship in 2008 and he played two under-19 World Cups in 2010 and 2012, where he was Pakistan's top run-scorer.𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐤𝐡𝐨𝐰 𝐦𝐨𝐫𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭 𝐭𝐡𝐞
+    𝐊𝐢𝐧𝐠!<!---<button class="add-Player" onclick="alert('https://en.wikipedia.org/wiki/Babar_Azam')">Add a Player</button>--->
+    <a href='https://en.wikipedia.org/wiki/Babar_Azam'>wikipedia Babar Azam</a>
+
+</body>
+<style>
+    .players-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        font-family: 'Segoe UI', sans-serif;
+        padding: 20px;
+    }
+
+    .player-card {
+        background-color: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+    .player-card:hover {
+        transform: scale(1.03);
+    }
+
+    .player-card img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border: 3px solid #0d9488;
+        margin-bottom: 10px;
+    }
+
+    .player-card h2 {
+        margin: 10px 0 5px;
+        color: #0f172a;
+    }
+
+    .player-card p {
+        margin: 4px 0;
+        color: #334155;
+    }
+
+    .highlight {
+        background-color: #0d9488;
+        color: white;
+        padding: 6px 12px;
+        border-radius: 12px;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 12px;
+    }
+</style>
+
+
+
+   <img src="https://media.gettyimages.com/id/1242781572/photo/cricket-asia-uae-ind-pak.webp?s=1024x1024&w=gi&k=20&c=d1Q1sAbHmiVb4rQWK5Bgw8W2MtlRVbywg-Rf3F-3g30="/>Naseem
+Shah is a Pakistani international cricketer. In October 2019, at the age of 16, he was called up to the Pakistan cricket
+team for their Test series against Australia.Zarai Taraqiati Bank Limited may not be an esteemed name in Pakistan
+cricket, but it was for this deparment that Naseem Shah made his first-class debut at 15. With a natural, whippy action
+that generated easy pace, he immediately stood out even in that most competitive of fields - Pakistani fast bowling. A
+year later, he was making his Pakistan debut in Brisbane, though not before adversity touched him; he would lose his
+mother just before he received his first Pakistan cap.Zarai Taraqiati Bank Limited may not be an esteemed name in Pakistan cricket, but it was for this deparment that Naseem Shah made his first-class debut at 15. With a natural, whippy action that generated easy pace, he immediately stood out even in that most competitive of fields - Pakistani fast bowling. A year later, he was making his Pakistan debut in Brisbane, though not before adversity touched him; he would lose his mother just before he received his first Pakistan cap.𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐤𝐡𝐨𝐰 𝐦𝐨𝐫𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧
+𝐚𝐛𝐨𝐮𝐭 𝐋𝐢𝐥𝐥𝐞𝐞
+𝐒𝐡𝐚𝐡!<!---<button class="add-Player" onclick="alert('https://en.wikipedia.org/wiki/Naseem_Shah')">Add a Player</button>--->
+<a href=https://en.wikipedia.org/wiki/Naseem_Shah>wikipedia Naseem Shah</a>
+<img src="https://media.gettyimages.com/id/2185072023/photo/australia-v-pakistan-mens-t20i-series-game-2.webp?s=1024x1024&w=gi&k=20&c=XB5hRTwNb8U2Y28TriWhYV5Igusdwb4A-Ca7mjWBOso="/>Haris Rauf is a
+Pakistani cricketer. He made his international debut for the Pakistan cricket team in January 2020. He made his Twenty20
+debut for the Lahore Qalandars in the 2018 Abu Dhabi T20 Trophy on 5 October.
+By and large, the quixotic idea of a Pakistan fast bowler suddenly emerging upon everyone's radar fully formed is
+something of an urban legend. But that is almost precisely how Haris Rauf appeared, as if conjured simply by the power
+of the fast-bowling spirit that always seems to lurk around the country.By and large, the quixotic idea of a Pakistan fast bowler suddenly emerging upon everyone's radar fully formed is something of an urban legend. But that is almost precisely how Haris Rauf appeared, as if conjured simply by the power of the fast-bowling spirit that always seems to lurk around the country.Growing up completely outside of the formal Pakistan cricket system, a 24-year-old Rauf showed up to audition for Lahore Qalandars' player development programme in 2017, having only played tape-ball cricket until that point. He caught everyone's eye with his extreme pace, and after a successful season with Qalandars and a whirlwind BBL summer, he was fast-tracked into the national side.𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐤𝐡𝐨𝐰 𝐦𝐨𝐫𝐞
+𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭
+𝟏𝟓𝟎!<!---<button class="add-Player" onclick="alert('https://en.wikipedia.org/wiki/Haris_Rauf')">Add a Player</button>--->
+<a href=https://en.wikipedia.org/wiki/Mohammad_Amir> wikipedia Mohammmed Amir</a>
+<img src="https://media.gettyimages.com/id/1151926255/photo/new-zealand-v-pakistan-icc-cricket-world-cup-2019.webp?s=1024x1024&w=gi&k=20&c=x-cUSS7DLvBTiGHP2wWyMdKLICYckR_33Bqa6umwqSA="/>Amir is a spectacular fast bowler. He is born in Changa Bangial,Pakistan. His debut was in 7 June 2009.He provides big wickets in
+crucial times.The team that he played for in the HBL PSL was Karachi Kings. Now he plays for Quetta Gladiators.Amir has
+won a HBL PSL trophy once with Karachi Kings.Alleging ill-treatment from the PCB, Amir announced on 17 December 2020
+that he would not be available for selection for his national side anymore.He reversed his decision and got his
+retairment back.He played well,but after Amir announced his retirement from international cricket for the second time in
+December 2024.Mohammad Amir, a left-arm pace bowler, reveres Wasim Akram. Over 2007 and 2008, he also emerged, still improbably young, as a hot pace prospect. Even before he went to England on an U-19 tour, he had been picked out as a special talent by Akram himself at a pace camp he oversaw in Lahore in May 2007. By 2010, he had become the hottest pace bowling prospect around the world - but within months his career was in ruins following charges of spot-fixing.𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐤𝐡𝐨𝐰 𝐦𝐨𝐫𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭
+𝐌𝐢𝐫𝐮.!
+<!---<button class="add-Player" onclick="alert('https://en.wikipedia.org/wiki/Mohammad_Amir')">Add a Player</button>--->
+
+<h2>These are the main players of India!</h2>
+<div class="players-container">
+    <!--Virat Kohli-->
+    <div class="player-card">
+        <img
+            src="https://media.gettyimages.com/id/2200260517/photo/india-portraits-icc-champions-trophy-2025.webp?s=1024x1024&w=gi&k=20&c=PSYBQMWs8GL1SZNm-e3V2EUpAANYycafXot9hqYGAnE=">
+        <h2>Virat Kohli</h2>
+        <p><strong>Team:</strong> India</p>
+        <p><strong>Matches:</strong> 302 ODIs</p>
+        <p><strong>Runs:</strong> 14,181</p>
+        <p><strong>Average:</strong> 57.9</p>
+        <p><strong>Centuries:</strong> 51</p>
+        <div class="highlight">🏏 Player of the Week</div>
+    </div>
+
+    <!--Rohit Sharma-->
+    <div class="player-card">
+        <img
+            src="https://media.gettyimages.com/id/2200260514/photo/india-portraits-icc-champions-trophy-2025.jpg?s=1024x1024&w=gi&k=20&c=8S3XhZYdaXI6qIOlpUinGbZp0124KrHuPJXIiyadRl0=">
+        <h2>Rohit Sharma</h2>
+        <p><strong>Team:</strong> India</p>
+        <p><strong>Matches:</strong> 273 ODIs</p>
+        <p><strong>Runs:</strong> 11,168</p>
+        <p><strong>Average:</strong> 48.8</p>
+        <p><strong>Centuries:</strong> 32</p>
+        <div class="highlight">🔥 Batting Star</div>
+    </div>
+
+    <!--Jasprit Bumrah-->
+    <div class="player-card">
+        <img
+            src="https://media.gettyimages.com/id/2155145910/photo/india-portraits-icc-mens-t20-cricket-world-cup-west-indies-usa-2024.webp?s=1024x1024&w=gi&k=20&c=oBp7StIbbRhZn-qdDyoQI62s_su0vWzjSe2J5IFfRgk=">
+        <h2>Jasprit Bumrah</h2>
+        <p><strong>Team:</strong> India</p>
+        <p><strong>Matches:</strong> 89 ODIs</p>
+        <p><strong>Wickets:</strong> 149</p>
+        <p><strong>Best Bowling:</strong> 6/19</p>
+        <p><strong>Avg:</strong> 7.6</p>
+        <div class="highlight">💥 Strike Bowler</div>
+    </div>
+</div>
+
+<h2>These are the main players of Pakistan!</h2>
+<div class="players-container">
+    <!-- Babar Azam -->
+    <div class="player-card">
+        <img
+            src="https://media.gettyimages.com/id/2200095524/photo/pakistan-portraits-icc-champions-trophy-2025.webp?s=1024x1024&w=gi&k=20&c=mbL9PoyLcDJ7YkQ9Ddut0R9_VQLMo3yeZs5yAjm07j8=">
+        <h2>Babar Azam</h2>
+        <p><strong>Team:</strong> Pakistan</p>
+        <p><strong>Matches:</strong> 119 ODIs</p>
+        <p><strong>Runs:</strong> 5729</p>
+        <p><strong>Average:</strong> 56.7</p>
+        <p><strong>Centuries:</strong> 19</p>
+        <div class="highlight">🏏 Player of the Week</div>
+    </div>
+
+    <!-- Mohammad Rizwan -->
+    <div class="player-card">
+        <img
+            src="https://media.gettyimages.com/id/2200095547/photo/pakistan-portraits-icc-champions-trophy-2025.webp?s=612x612&w=gi&k=20&c=5J3-l_Hgm5xc1Ng8VxNYrVHg4mDPpUGMkKl89pBM8Kc=">
+        <h2>Mohammad Rizwan</h2>
+        <p><strong>Team:</strong> Pakistan</p>
+        <p><strong>Matches:</strong> 72 ODIs</p>
+        <p><strong>Runs:</strong> 2049</p>
+        <p><strong>Average:</strong> 37.7</p>
+        <p><strong>Centuries:</strong> 2</p>
+        <div class="highlight">🔥 Wicket-Keeper Star</div>
+    </div>
+
+    <!-- Shaheen Afridi -->
+    <div class="player-card">
+        <img
+            src="https://media.gettyimages.com/id/2200095505/photo/pakistan-portraits-icc-champions-trophy-2025.webp?s=1024x1024&w=gi&k=20&c=NAMqSpCHmnMWkdJhPwcMuEPYDe2lzk2GMUhG0zMtPIk=">
+        <h2>Shaheen Afridi</h2>
+        <p><strong>Team:</strong> Pakistan</p>
+        <p><strong>Matches:</strong> 53 ODIs</p>
+        <p><strong>Wickets:</strong> 104</p>
+        <p><strong>Best Bowling:</strong> 6/35</p>
+        <p><strong>Avg:</strong> 23.9</p>
+        <div class="highlight">💥 Strike Bowler</div>
+    </div>
+</div>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatch These cool batting and bowling from Legends!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: darkblue;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        .media-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .media-container {
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        audio,
+        video {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 560px;
+            margin: 0 auto;
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Whatch These cool batting and bowling from Legends!</h1>
+        <p>Click the buttons below to enjoy some cool batting and bowling from Legends!</p>
+    </header>
+    <section class="media-section">
+        <div class="media-container">
+            </iframe>
+        </div>
+        <iframe width="200" height="300" src="https://www.youtube.com/embed/FopqfajeDf0?si=noS02a5ajHmvaN-q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OzsYsAvVaTk?si=2IAVgTTVecgcD-qa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wk2mBevW6hs?si=SKBQ-OuoNChxL7fT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nCTUP7-tLrU?si=I2iAn6yzxBSKifTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/62B6cBDOM0w?si=xch7LoYNNGt9WAE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vlGy1Qe8YRc?si=z_Z-mbKjOJ1ZK2r0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/t5FRB_dK4qk?si=qcYcxqtr91Fd9NbA"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="100" height="20" src="https://www.youtube.com/embed/kHJCNc2MZKo?si=5oGWVaDPX5WNobQV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M7IHuDCCMGg?si=LFFohpcqpYrF8MDX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/nJ9m_riC7WA?si=qp_fHxBIQOPBFgAj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oK-97ROBn3o?si=-T7iNYdu8KeCfqbV"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-iIB6Pe31R8?si=ga3N4kz4P9WOalFg"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    </section>
+    <footer>
+        <p>&copy; 2025 Fun Learning Inc. Enjoy learning with us!</p>
+    </footer>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏏All ABOUT CRICKET TEAMS!</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+            background-color: #ddffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .accordion {
+            max-width: 400px;
+            margin: auto;
+            text-align: left;
+        }
+
+        .accordion-item {
+            /* background: #ddffff; */
+            margin-bottom: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .accordion-header {
+            padding: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .accordion-header:hover {
+            background: #ddffff;
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            padding: 0 15px;
+            font-size: 16px;
+            /* background: #ddffff; */
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+
+        .accordion-content.open {
+            max-height: 100px;
+            padding: 15px;
+        }
+
+        .arrow {
+            font-size: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .arrow.open {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2> Fun facts about Cricket palyers🏏!</h2>
+    <div class="accordion">
+        <div class="accordion-item">
+            <div style="color: black;" class="accordion-header">
+                <span> Rohit sharma</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-content">
+                Sharma is the only player to have scored three double hundreds in ODI cricket; no other player has
+                scored even two. He also holds the record for most international sixes across all formats, most sixes in
+                World Cups, and the highest individual score in an ODI!
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <span>Jasprit Bumrah</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-content">
+                Bumrah was born into a Sikh family in Ahmedabad, Gujarat. He lost his father at the age of five, and
+                the family faced financial struggles in his early years. Bumrah has had a reputation for bowling
+                fast since his childhood days.
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <span>Virat Kohli</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-content">
+                Kohli was highest run scorer of 2023 ICC World Cup and was named Player of the Tournament.
+                Kohli is only player to have won two Player of the Tournament in the history of the T20
+                World Cup, in 2014 and 2016 editions. At 2023 World Cup Semi Final against New Zealand
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <span>Mohammed Rizwan</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-content">
+                He has scored centuries in all three formats: Tests, One Day Internationals and
+                Twenty20 Internationals. He holds the record for most runs in T20 Internationals in
+                a calendar year with 1326 runs in 26 innings at an average of 73.66.
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <span>Shahid Afridi</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-content">
+                In his first international innings, Afridi broke the record for fastest
+                century in ODI cricket, reaching his hundred from 37 balls. The eleven sixes
+                he struck also equaled the record for most in an ODI innings.
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <span>Shaheen Shah Afridi</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-content">
+                Shaheen Shah Afridi is a Pakistani cricketer who has made
+                significant contributions to the sport. He is the youngest cricketer
+                to take a five-wicket haul in a World Cup match, and holds the
+                record for best bowling figures by a Pakistani bowler on his
+                first-class debut match.
+                 </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <span>Babar Azam</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-content">
+                Babar Azam is known for his consistent batting performance and holds several records in ODI and T20 formats. He is the only cricketer to score 5 consecutive centuries in a single country (UAE) and is the fastest to reach 1000 T20I runs, among other achievements. He has also been the top ODI scorer for Pakistan in multiple years and the top Test scorer in other years.</div>
+                </div>
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <span>Naseem Shah</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-content">
+                Naseem Shah is known for his rapid rise to fame in cricket, becoming the youngest bowler to take a Test hat-trick and achieving other remarkable records at a young age. He hails from Mayar Jandool, Pakistan, and comes from a family where his father initially encouraged him to prioritize his studies before pursuing cricket.</div>
+                <div class="accordion-item">
+            <div class="accordion-header">
+                <span>Haris Rauf</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-content">
+                Haris Rauf, the Pakistani fast bowler, has a unique backstory. He is self-taught, honed his skills on the streets of Rawalpindi, and even worked as a salesman at a mobile shop before becoming a professional cricketer. He is also known for bowling with a distinctive action and for holding the record for the fastest delivery in PSL history. </div>
+                <div class="accordion-item">
+            <div class="accordion-header">
+                <span>Mohammed Amir</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="accordion-content">
+                Mohammad Amir is a Pakistani left-arm fast bowler known for his powerful swing and speed. He was a key member of the Pakistan team that won the 2017 ICC Champions Trophy. Some fun facts about Amir include. </div>
+
+            
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const items =
+            document.querySelectorAll('.accordion-item');
+
+        items.forEach(item => {
+            const header =
+                item.querySelector('.accordion-header');
+            const content =
+                item.querySelector('.accordion-content');
+            const arrow =
+                header.querySelector('.arrow');
+
+            header.addEventListener('click', () => {
+                content.classList.toggle('open');
+                arrow.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Tabs</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: darek blue margin: 0;
+            padding: 20px;
+        }
+
+        .tabs {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .tab-button {
+            padding: 15px 30px;
+            cursor: pointer;
+            font-size: 18px;
+            margin: 5px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .tab-button:hover {
+            transform: scale(1.1);
+            background-color: #FFD700;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            margin-top: 20px;
+            background-color: #ffffff;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Optional: Style the body to center the content and add some space */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #FF6347;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>All about Cricket!</h1>
+        <p>Lets see how Cricket works!</p>
+
+        <button class="tab-button" onclick="openTab('tab1')" style="background-color: #0000FF;">
+            Batting!
+        </button>
+
+        <button class="tab-button" onclick="openTab('tab2')" style="background-color: #FF0000;">
+            Bowling!
+        </button>
+
+        <button class="tab-button" onclick="openTab('tab3')" style="background-color: # #000000;">
+            Feilding!
+
+        </button>
+    </div>
+    <div id="tab1" class="tab-content">
+        A batsman may hit right-handed or left-handed. Good batting is based on a straight (i.e., vertical) bat with its
+        full face presented to the ball, although a cross (i.e., horizontal) bat can be used effectively to deal with
+        short bowling.
+    </div>
+    <div id="tab2" class="tab-content">
+        Bowling, in cricket, is the action of propelling the ball toward the wicket defended by a batter. A player
+        skilled at bowling is called a bowler;[1] a bowler who is also a competent batter is known as an all-rounder.
+        Bowling the ball is distinguished from throwing the ball by a strictly specified biomechanical definition, which
+        restricts the angle of extension of the elbow.[2] A single act of bowling the ball towards the batter is called
+        a ball or a delivery. Bowlers bowl deliveries in sets of six, called an over.</div>
+
+    <div id="tab3" class="tab-content">
+        Fielding refers to the act of catching, collecting and returning a ball that has been hit by the batsman. There
+        are nine fielders on each team, as one player out of the 11 will have to act as the bowler, while another takes
+        up the role of the wicket keeper.</div>
+    <div style="position:fixed; top:0; left:0; width:100%; z-index:9999;">
+  <script type="text/javascript">
+    app="www.cricwaves.com"; mo="B"; mats =""; tor =""; Width="100%"; Height="50px"; wi ="w"; co="mn"; ad="";
+  </script>
+  <script type="text/javascript" src="//www.cricwaves.com/cricket/widgets/script/scoreWidgets.js?v=0.111"></script>
+</div>:contentReference[oaicite:5]{index=5}
+<body style="margin-top:60px;">
+  <!-- Your main content here -->
+</body>
+
+
+
+    <div style="position:fixed; top:0; left:0; width:100%; z-index:9999;">
+  <script type="text/javascript">
+    app="www.cricwaves.com"; mo="B"; mats =""; tor =""; Width="100%"; Height="50px"; wi ="w"; co="mn"; ad="";
+  </script>
+  <script type="text/javascript" src="//www.cricwaves.com/cricket/widgets/script/scoreWidgets.js?v=0.111"></script>
+</div>
+<div style="margin-top:60px;"></div> <!-- This div adds space below the fixed widget -->:contentReference[oaicite:12]{index=12}
+
+        </div>
+    </div>
+    <script>
+    </script>
+</body>
+
+</html>
